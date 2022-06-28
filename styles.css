@@ -1,0 +1,59 @@
+body {
+  font-family: 'Trispace', sans-serif;
+}
+
+h2 {
+  background-color: lightgrey;
+  padding: 20px;
+  border-radius: 5px;
+  width: 350px;
+  text-align: center;
+}
+
+h2, h3 {
+  color: teal;
+}
+
+.color {
+  color: black;
+}
+
+.nav-center {
+  width: 90vw;
+  padding-left: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+main {
+  min-height: calc(90vh - 3rem);
+  display: grid;
+  place-items: center;
+}
+
+#btn {
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 5px 10px;
+  color: #000000;
+  background-color: inherit;
+  margin: 0 35%;
+  width: 120px;
+  height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+#btn:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .nav-center {
+    width: 100vw;
+    padding-left: 20px;
+}
